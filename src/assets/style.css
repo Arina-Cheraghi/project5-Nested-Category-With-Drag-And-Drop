@@ -1,0 +1,40 @@
+.parent{
+    display: flex;
+    width: 90%;
+    padding: 3%;
+    justify-content: space-between;
+    border: 2px solid #6b3a53;
+    border-radius: 10px;
+}
+
+.parent input{
+    width: 80%;
+    padding: 1%;
+    background-color: #D6C0B3;
+    border-radius: 10px;
+    border: 2px solid #6b3a53;
+}
+
+
+
+.parent .btns{
+    display: flex;
+    width: 20%;
+    justify-content: space-evenly;
+}
+
+.parent button{
+    font-weight: bold;
+    padding: 3% 6%;
+    background-color: #D6C0B3;
+    border-radius: 10px;
+    border: 2px solid #6b3a53;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+.parent button:hover{
+    background-color: #6b3a53;
+    color: #D6C0B3;
+}
+
