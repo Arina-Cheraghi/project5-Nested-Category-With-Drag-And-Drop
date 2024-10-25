@@ -1,15 +1,14 @@
 import React from 'react';
 import InputParent from './components/InputParent';
 import "../src/App.css";
-import toast, { Toaster } from 'react-hot-toast';
 
 
 function App() {
   return (
-    <div className='app'>
-      <Toaster />
+    <div className='app bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500'>
       <InputParent />
     </div>
+    
   )
 }
 
